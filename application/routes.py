@@ -22,7 +22,7 @@ def about():
 
 @app.route('/register')
 def register():
-    return render_template('register.html', title='Register')
+    return render_template('register.html', title='Register Interest')
 
 
 @app.route('/schedules')
