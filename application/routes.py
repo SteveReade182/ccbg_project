@@ -12,7 +12,7 @@ def splash():
 
 @app.route('/home')
 def home():
-    return render_template('home.html')
+    return render_template('home.html', title='CCBG Racing')
 
 
 @app.route('/about')
