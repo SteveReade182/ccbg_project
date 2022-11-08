@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>{{title}} - Page</title>
+  <!-- bootstrap style link -->
+    <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
+</head>
+<body>
+<!--header-->
+<!--nav section-->
+<header>
+<h1>{{title}} Page</h1>
+</header>
+{% block body_content %}{% endblock %}
+<!--footer-->
+<footer>
+    <a href="{{url_for('home')}}">Home</a>
+    <a href="{{ url_for('about')}}">About Us</a>
+    <a href="{{ url_for('schedules')}}">Schedules</a>
+    <a href="{{ url_for('register')}}">Register</a>
+    <p>Chitty Chit Baz Gang &copy;</p>
+</footer>
+<!-- js script links etc-->
+</body>
+</html>
