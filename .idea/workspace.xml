@@ -1,14 +1,25 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="commiting image">
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="iteration 1 complete">
+      <change afterPath="$PROJECT_DIR$/application/static/images/24hrleman.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/Daytona.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/Daytona1.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/bmwm4.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/dallarap217.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/daytona24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/ferrarigt3.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/ferrarigte.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/iRacingLogo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/leman1.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/leman2.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/sebring24.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/spa-francorchamps-4.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/application/static/images/spa-francorchamps-7.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/schedules.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/schedules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/driver_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/driver_profile.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,6 +28,13 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -42,8 +60,8 @@
       <recent name="$PROJECT_DIR$/application/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/static/Fonts" />
       <recent name="$PROJECT_DIR$/application/static/images" />
+      <recent name="$PROJECT_DIR$/application/static/Fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -104,7 +122,14 @@
       <option name="project" value="LOCAL" />
       <updated>1667997214305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="iteration 1 complete">
+      <created>1668002095308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668002095308</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +146,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed image properties" />
     <MESSAGE value="Added font folder for stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added font folder for stylesheet" />
+    <MESSAGE value="iteration 1 complete" />
+    <option name="LAST_COMMIT_MESSAGE" value="iteration 1 complete" />
   </component>
 </project>

@@ -11,6 +11,11 @@ body{
     /*font-family: 'Raleway' 'Roboto', sans-serif;*/
     color:rgb(226, 132, 31)
 }
+/*  RYAN please edit text colors for carousel*/
+
+#carouselText{
+    color:darkgray;
+}
 
 * {
     text-align: center;
