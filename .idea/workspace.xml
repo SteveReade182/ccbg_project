@@ -1,30 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="Added font folder for stylesheet">
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/Raleway-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/Raleway-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ThinItalic.ttf" afterDir="false" />
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="commiting image">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/about.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/register.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/schedules.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/schedules.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -47,13 +30,13 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "RunOnceActivity.OpenProjectViewOnStart": "true",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "last_opened_file_path": "/Users/ryc06/Desktop/Project CCBG/ccbg_project/application/static/images"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;last_opened_file_path&quot;: &quot;/Users/ryc06/Desktop/Project CCBG/ccbg_project/application/static/images&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
       <recent name="$PROJECT_DIR$/application/static/images" />
@@ -62,6 +45,34 @@
       <recent name="$PROJECT_DIR$/application/static/Fonts" />
       <recent name="$PROJECT_DIR$/application/static/images" />
     </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="app" type="PythonConfigurationType" factoryName="Python" temporary="true" nameIsGenerated="true">
+      <module name="ccbg_project" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/app.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Python.app" />
+      </list>
+    </recent_temporary>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">

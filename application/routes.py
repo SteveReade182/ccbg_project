@@ -7,7 +7,7 @@ from application import app
 @app.route('/')
 @app.route('/splash')
 def splash():
-    return render_template('splash.html', title='Welcome')
+    return render_template('splash.html', title='CCBG Racing')
 
 
 @app.route('/home')
