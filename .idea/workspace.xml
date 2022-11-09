@@ -1,30 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="Added font folder for stylesheet">
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/OFL.txt" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/OFL.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/README.txt" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/README.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/Raleway-Italic-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/Raleway-Italic-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/Raleway-VariableFont_wght.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/Raleway-VariableFont_wght.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Black.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Black.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-BlackItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-BlackItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Bold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Bold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-BoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-BoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraLight.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraLight.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ExtraLightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ExtraLightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Italic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Italic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Light.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Light.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-LightItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-LightItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Medium.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Medium.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-MediumItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-MediumItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Regular.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Regular.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-SemiBold.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-SemiBold.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-SemiBoldItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-SemiBoldItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-Thin.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-Thin.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/Raleway/static/Raleway-ThinItalic.ttf" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/Fonts/Raleway/static/Raleway-ThinItalic.ttf" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="Created font folder for css">
+      <change beforePath="$PROJECT_DIR$/application/static/images/Gmail.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/static/images/Instagram.webp" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/static/images/Twitter.png" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/images/Twitter.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -93,7 +73,21 @@
       <option name="project" value="LOCAL" />
       <updated>1667997214305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Created font folder for css">
+      <created>1667999994174</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1667999994174</updated>
+    </task>
+    <task id="LOCAL-00005" summary="Created font folder for css">
+      <created>1668000007650</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668000007650</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -110,6 +104,7 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed image properties" />
     <MESSAGE value="Added font folder for stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added font folder for stylesheet" />
+    <MESSAGE value="Created font folder for css" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created font folder for css" />
   </component>
 </project>
