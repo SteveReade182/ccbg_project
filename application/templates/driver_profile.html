@@ -1,25 +1,10 @@
-<!DOCTYPE html>
-<html lang="en">
-
-<head>
-  <title>Driver profile</title>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/css/bootstrap.min.css">
-  <link rel="stylesheet" href="/ccbg_project/application/static/styles.css">
-  <script src="https://cdn.jsdelivr.net/npm/jquery@3.6.0/dist/jquery.slim.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"></script>
-  <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.1/dist/js/bootstrap.bundle.min.js"></script>
-  
-</head>
-
-<body>
-
-  <div class="container-fluid">
+{% extends "layout.html" %}
+{% block body_content %}
+<div class="container-fluid">
     <div class="row">
       <div class="col-sm-3">
         <div class="card" style="width:300px">
-          <img class="card-img-top" src="/ccbg_project/application/static/images/senna-PhotoRoom.png" alt="Senna helmet"
+          <img src="{{url_for('static', filename= 'images/senna-PhotoRoom.png')}}" alt="Senna helmet"
             style="width:100%">
           <div class="card-body">
             <h4 class="card-title">Baz Smith</h4>
@@ -31,7 +16,7 @@
 
       <div class="col-sm-3">
         <div class="card" style="width:300px">
-          <img class="card-img-top" src="/ccbg_project/application/static/images/michael_helmet-PhotoRoom.png" alt="michael helmet"
+         <img src="{{url_for('static', filename= 'images/michael_helmet-PhotoRoom.png')}}" alt="Senna helmet"
             style="width:100%">
           <div class="card-body">
             <h4 class="card-title">Chitty</h4>
@@ -43,7 +28,7 @@
 
       <div class="col-sm-3">
         <div class="card" style="width:300px">
-          <img class="card-img-top" src="/ccbg_project/application/static/images/james_hunt_helmet-PhotoRoom.png" alt="james hunt helmet"
+          <img src="{{url_for('static', filename= 'images/james_hunt_helmet-PhotoRoom.png')}}" alt="Senna helmet"
             style="width:100%">
           <div class="card-body">
             <h4 class="card-title">S. Reade</h4>
@@ -55,7 +40,7 @@
 
       <div class="col-sm-3">
         <div class="card" style="width:300px">
-          <img class="card-img-top" src="/ccbg_project/application/static/images//jacques-PhotoRoom.png" alt="Senna helmet"
+          <img src="{{url_for('static', filename= 'images/jacques-PhotoRoom.png')}}" alt="Senna helmet"
             style="width:100%">
           <div class="card-body">
             <h4 class="card-title">Ryan Coston</h4>
@@ -65,16 +50,8 @@
         </div>
       </div>
 
-
-
-
     </div>
   </div>
 
 
-
-
-
-</body>
-
-</html>
+{% endblock %}

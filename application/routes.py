@@ -30,6 +30,10 @@ def schedules():
     return render_template('schedules.html', title='Upcoming Races')
 
 
+@app.route('/driver_profile')
+def driver_profile():
+    return render_template('driver_profile.html', title='Profiles')
+
 # @app.route('/favourites')
 # def favourites():
 #     cars = ['Porsche 918', 'Jaguar XJR12', 'Aston Martin Vantage', 'Alfa Romeo Brera', 'Volkswagon Golf Mk1']
