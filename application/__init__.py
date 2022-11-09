@@ -1,3 +1,4 @@
+# import Flask class fromm the flask module
 from flask import Flask
 
 app = Flask(__name__)
