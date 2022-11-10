@@ -33,16 +33,25 @@ class DataProviderService:
         return new_person[0]
 
 
-    def get_people(self, person_id=None, limit=None):
-        all_people = []
-        if person_id is None:
-            sql = "SELECT * FROM recruits order by rec_id desc"
-            self.cursor.execute(sql)
-            all_people = self.cursor.fetchall()
-        else:
-            sql = """Select * from recruits where rec_id = %s"""
-            input_values = (person_id,)
-            self.cursor.execute(sql, input_values)
-            all_people = self.cursor.fetchone()
-        return all_people
+    # def get_people(self, person_id=None, limit=None):
+    #     all_people = []
+    #     if person_id is None:
+    #         sql = "SELECT * FROM recruits order by rec_id desc"
+    #         self.cursor.execute(sql)
+    #         all_people = self.cursor.fetchall()
+    #     else:
+    #         sql = """Select * from recruits where rec_id = %s"""
+    #         input_values = (person_id,)
+    #         self.cursor.execute(sql, input_values)
+    #         all_people = self.cursor.fetchone()
+    #     return all_people
 
+
+    def get_people_by_racingID(self, has_racing_id):
+        all_people = []
+        sql = """SELECT * FROM recruits WHERE iracing_id = %s order by rec_id desc"""
+        input_values = (has_racing_id,)
+        self.cursor.execute(sql, input_values)
+        all_people = self.cursor.fetchall()
+
+        return all_people

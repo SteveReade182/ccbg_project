@@ -1,5 +1,3 @@
-from wtforms import StringField, SubmitField
-from flask_wtf import FlaskForm
 
 from wtforms import StringField, SubmitField
 from flask_wtf import FlaskForm
@@ -12,5 +10,5 @@ class BasicForm(FlaskForm):
     surname = StringField('Last Name')
     age = StringField('Age')
     email = StringField('Email')
-    iracing_id = StringField("Yes or No")
-    submit = SubmitField('Add Name')
+    iracing_id = StringField("iRacing Subscriber?")
+    submit = SubmitField('Register')

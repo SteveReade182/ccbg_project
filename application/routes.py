@@ -53,9 +53,10 @@ def register():
 
 @app.route('/people', methods=['GET'])
 def get_people():
-    all_people = DATA_PROVIDER.get_people()
-    return render_template('people.html', title="Recruits", people=all_people)
-
+    all_people_with = DATA_PROVIDER.get_people_by_racingID("Y")
+    all_people_without = DATA_PROVIDER.get_people_by_racingID("N")
+    # return render_template('people.html', title="Recruits", people_with=all_people_with)
+    return render_template('people.html', title="Recruits", people_with=all_people_with, people_without=all_people_without)
 
 @app.route('/driver_profile')
 def driver_profile():
