@@ -1,12 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="iteration 3 almost complete&#10;-sorted people data and mysql connections">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/success.html" afterDir="false" />
-    </list>
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="iteration 3 almost complete&#10;-sorted splash images" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -143,7 +138,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668108415750</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="iteration 3 almost complete&#10;-sorted splash images">
+      <created>1668111354859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668111354859</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -165,6 +167,7 @@
     <MESSAGE value="iteration 2 almost complete&#10;-working form&#10;-carousels need texgt work&#10;-more content needs adding" />
     <MESSAGE value="iteration 3 almost complete&#10;-working form, navbar&#10;-carousels need text work&#10;-more content needs adding&#10;-moved about to home" />
     <MESSAGE value="iteration 3 almost complete&#10;-sorted people data and mysql connections" />
-    <option name="LAST_COMMIT_MESSAGE" value="iteration 3 almost complete&#10;-sorted people data and mysql connections" />
+    <MESSAGE value="iteration 3 almost complete&#10;-sorted splash images" />
+    <option name="LAST_COMMIT_MESSAGE" value="iteration 3 almost complete&#10;-sorted splash images" />
   </component>
 </project>
