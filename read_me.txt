@@ -4,3 +4,4 @@ day1-stage 1,
     -future build may have member login with verification for a member area!
 -designed logo, started planning database for requested new driver details.
 -created page links using python and flask
+I broke it

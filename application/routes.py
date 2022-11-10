@@ -20,9 +20,9 @@ def home():
     return render_template('home.html', title='CCBG Racing')
 
 
-@app.route('/contactus')
-def contact():
-    return render_template('contact_us.html', title='Contact Us')
+@app.route('/about')
+def about():
+    return render_template('about.html', title='About Us')
 
 
 # @app.route('/register')
@@ -63,6 +63,7 @@ def get_people():
 @app.route('/driver_profile')
 def driver_profile():
     return render_template('driver_profile.html', title='Profiles')
+
 
 # @app.route('/favourites')
 # def favourites():
