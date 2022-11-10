@@ -61,7 +61,7 @@ def get_people():
 def driver_profile():
     return render_template('driver_profile.html', title='Profiles')
 
-@app.route('/contact_us')
+@app.route('/contactus')
 def contact_us():
     return render_template('contact_us1.html', title='Contact Us')
 
