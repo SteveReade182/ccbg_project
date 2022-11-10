@@ -15,14 +15,11 @@ def splash():
     return render_template('splash.html', title='CCBG Racing')
 
 
+
+
 @app.route('/home')
 def home():
     return render_template('home.html', title='CCBG Racing')
-
-
-@app.route('/about')
-def about():
-    return render_template('about.html', title='About Us')
 
 
 # @app.route('/register')
