@@ -22,11 +22,6 @@ def home():
     return render_template('home.html', title='CCBG Racing')
 
 
-# @app.route('/register')
-# def register():
-#     return render_template('register.html', title='Register a')
-
-
 @app.route('/schedules')
 def schedules():
     return render_template('schedules.html', title='Upcoming Races')
@@ -53,35 +48,18 @@ def register():
 
 @app.route('/people', methods=['GET'])
 def get_people():
-    all_people = DATA_PROVIDER.get_people()
-    return render_template('people.html', title="Recruits", people=all_people)
-
+    all_people_with = DATA_PROVIDER.get_people_by_racingID("Y")
+    all_people_without = DATA_PROVIDER.get_people_by_racingID("N")
+    # return render_template('people.html', title="Recruits", people_with=all_people_with)
+    return render_template('people.html', title="Recruits", people_with=all_people_with, people_without=all_people_without)
 
 @app.route('/driver_profile')
 def driver_profile():
     return render_template('driver_profile.html', title='Profiles')
 
-@app.route('/contact_us')
+@app.route('/contactus')
 def contact_us():
     return render_template('contact_us1.html', title='Contact Us')
 
 
-# @app.route('/favourites')
-# def favourites():
-#     cars = ['Porsche 918', 'Jaguar XJR12', 'Aston Martin Vantage', 'Alfa Romeo Brera', 'Volkswagon Golf Mk1']
-#     return render_template('favourites.html', title='Favourites', cars_list=cars)
 
-
-# @app.route('/register', methods=['GET', 'POST'])
-# def register():
-#     error = ""
-#     # instantiating an object of type BasicForm
-#     form = BasicForm()
-#     if request.method == 'POST':
-#         first_name = form.first_name.data
-#         last_name = form.last_name.data
-#         if len(first_name) == 0 or len(last_name) == 0:
-#             error = "Please supply both first and last name"
-#         else:
-#             return 'Thank you!'
-#     return render_template('person.html', form=form, message=error)

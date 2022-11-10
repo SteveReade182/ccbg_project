@@ -37,14 +37,41 @@ img{
 }
 
 
-/* #Nav bar color changes */
 
-/* Modify the background color */
-.navbar-custom {
-    background-color: #fca400;
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+      color           : red;
+    }
+  }
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(253, 126, 0, 0.817);
+      transform    : translateX(-100%);
+    }
+  }
+  .navbar-nav li a {
+    color: rgb(248, 139, 5) !important;
+  }
+
+h1 {font-size:75px;
+font-family:Raleway,
+font-weight:
+  font-size: 80px;
+  color:coral;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
 }
-/* Modify brand and text color */
-.navbar-custom .navbar-brand,
-.navbar-custom .navbar-text {
-    color: rgb(1, 1, 1);
-}
+
+
+
+body{font-family:Raleway}
