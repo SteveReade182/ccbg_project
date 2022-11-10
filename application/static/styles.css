@@ -33,5 +33,18 @@ img{
     color: rgb(0, 0, 0);
 }
 .card{
-    background-color: #ff880190;
+    background-color: #ff910094;
+}
+
+
+/* #Nav bar color changes */
+
+/* Modify the background color */
+.navbar-custom {
+    background-color: #fca400;
+}
+/* Modify brand and text color */
+.navbar-custom .navbar-brand,
+.navbar-custom .navbar-text {
+    color: rgb(1, 1, 1);
 }
