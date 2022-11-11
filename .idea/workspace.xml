@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="new branch for developing password&#10;-lots of updates to each html file">
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code.">
+      <change afterPath="$PROJECT_DIR$/application/templates/login.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/layout.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/templates/people.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/people.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/register.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -14,10 +14,17 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_BRANCH_BY_REPOSITORY">
       <map>
-        <entry key="$PROJECT_DIR$" value="Dev" />
+        <entry key="$PROJECT_DIR$" value="login_dev" />
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -43,6 +50,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ryc06/Desktop/Project CCBG/ccbg_project/application/static/images&quot;
@@ -81,6 +89,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -171,7 +181,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668154305883</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code.">
+      <created>1668159870649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668159870649</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -196,6 +213,7 @@
     <MESSAGE value="iteration 3 almost complete&#10;-sorted splash images" />
     <MESSAGE value="new branch for developing password" />
     <MESSAGE value="new branch for developing password&#10;-lots of updates to each html file" />
-    <option name="LAST_COMMIT_MESSAGE" value="new branch for developing password&#10;-lots of updates to each html file" />
+    <MESSAGE value="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
+    <option name="LAST_COMMIT_MESSAGE" value="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
   </component>
 </project>

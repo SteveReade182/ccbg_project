@@ -1,4 +1,4 @@
-from flask import render_template, request
+from flask import render_template, request, redirect, url_for
 
 from application import app
 from application.forms import BasicForm
@@ -56,9 +56,22 @@ def get_people():
 def driver_profile():
     return render_template('driver_profile.html', title='Current Driver Profiles')
 
+
 @app.route('/contactus')
 def contact_us():
     return render_template('contact_us1.html', title='Contact Us')
+
+
+# routing and GET/POST and simple error check for login page. added url_for and redirect from flask
+@app.route('/login', methods=['GET', 'POST'])
+def login():
+    error = None
+    if request.method == 'POST':
+        if request.form['username'] != 'admin' or request.form['password'] != 'Racecar!':
+            error = 'Invalid username or password. Please try again.'
+        else:
+            return redirect(url_for('get_people'))
+    return render_template('login.html', error=error, title='Login')
 
 
 
