@@ -38,7 +38,7 @@ def register():
         email = form.email.data
         iracing_id = form.iracing_id.data
         if len(firstname) == 0 or len(surname) == 0 or len(age) == 0 or len(email) == 0 or len(iracing_id) == 0:
-            error = "Please input data into all required fields, and for iracing_id type [Y or N] "
+            error = "Please input data into all required fields, and for iRacing Subscriber please enter: [Y or N] "
         else:
             new_person_id = DATA_PROVIDER.add_person(firstname, surname, age, email, iracing_id)
             success = 'Recruit Number:  ' + str(new_person_id) + ' data received. Thank you!'

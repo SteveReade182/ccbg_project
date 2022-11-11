@@ -2,20 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="new branch for developing password">
-      <change afterPath="$PROJECT_DIR$/application/static/images/Sim_lab.webp" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/Stig.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/fanatec.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/iRacingImage.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/application/static/images/underConstruction.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/images/isimagethere.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/contact_us1.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/contact_us1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/driver_profile.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/driver_profile.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/home.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/home.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/layout.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/layout.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/schedules.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/schedules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/success.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/success.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
