@@ -23,31 +23,15 @@ CAN WE ADD PADDING TO THE TOP AND BOTTOM OF THE IMAGES SO THE WRITING AND SLIDE 
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="{{url_for('static', filename= 'images/dallarap217.png')}}" class="d-block w-100" alt="LMP-2 Endurance Race Car">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="carouselT1">Dallara P217 - The fastest car we drive, feels like a rocket ship!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/ferrarigt3.png')}}" class="d-block w-100" alt="GT3 Endurance Race Car">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="carouselT2">Ferrari Gt3 - Gt3 endurance racing is a great way to start!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/bmwm4.png')}}" class="d-block w-100" alt="GT3 Endurance Race Car">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="carouselT3">BMW M4 Gt3 - You can literally buy the real steering wheel for this car!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/ferrarigte.png')}}" class="d-block w-100" alt="GTE Endurance Race Car">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="carouselT4">Ferrari GTE - Our Leman favourite!</p>
-          </div>
         </div>
       </div>
       <!-- This code is for the left and right buttons  FOR carouselRacecarSlidesOnly -->
@@ -65,18 +49,23 @@ CAN WE ADD PADDING TO THE TOP AND BOTTOM OF THE IMAGES SO THE WRITING AND SLIDE 
 </div>
 
 <!--  add some sort of break     LOOK AT GUTTERS ON BOOTSTRAP -->
-
 <br>
-<p>
-Welcome! CCBG race using the iRacing simulator that hosts such drivers like "World Champion" & Red Bull F1 team Max Verstappen,
-Mclaren driver Lando Norris and Nascar driver Dale Earnhardt Jr to name a few. It is a very realistic simulator, laser scanning
-tracks and modelling car physics to make the ultimate racing experience available to all from the comforts of your own home!
-
-We have been together since 2019 and are always excited to have new drivers join us. We mainly compete in endurance racing but
-are open to suggestions from members. If you have any questions feel free to contact us, otherwise enjoy the site!!
-</p>
+<div class="row align-items-center">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+      <p>
+        Welcome! CCBG race using the iRacing simulator that hosts such drivers like "World Champion" & Red Bull F1 team Max Verstappen,
+        Mclaren driver Lando Norris and Nascar driver Dale Earnhardt Jr to name a few. It is a very realistic simulator, laser scanning
+        tracks and modelling car physics to make the ultimate racing experience available to all from the comforts of your own home!
+        We have been together since 2019 and are always excited to have new drivers join us. We mainly compete in endurance racing but
+        are open to suggestions from members. If you have any questions feel free to contact us, otherwise enjoy the site!!
+      </p>
+    </div>
+    <div class="col-sm-1">
+    </div>
+</div>
 <br>
-
 <!-- below will be about tracks-->
 
 <!-- This code is for the bootstrap 5 carousel, also added touch=false so touch screens won't slide images
@@ -101,40 +90,20 @@ CAN WE ADD PADDING TO THE TOP AND BOTTOM OF THE IMAGES SO THE WRITING AND SLIDE 
       <div class="carousel-inner">
         <div class="carousel-item active">
           <img src="{{url_for('static', filename= 'images/Daytona1.jpeg')}}" class="d-block w-100" alt="Daytona Image">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="cT1">World Center of Racing - Nascar is awesome!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/Daytona.jpeg')}}" class="d-block w-100" alt="Daytona Image 2">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="cT2">Daytona!</p>
-          </div>
         </div>
 
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/leman1.png')}}" class="d-block w-100" alt="Le Man Circuit Image 1">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="cT3">Ford Chicane - Don't hit those curbes!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/leman2.png')}}" class="d-block w-100" alt="Le Man Circuit Image 2">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="ct4">Pit Straight - Place of dreams!</p>
-          </div>
         </div>
 
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/spa-francorchamps-4.jpeg')}}" class="d-block w-100" alt="Spa Image">
-          <div class="carousel-caption d-none d-md-block">
-            <h5></h5>
-            <p id="cT5">Eau Rouge - Good Luck!</p>
-          </div>
         </div>
         <div class="carousel-item">
           <img src="{{url_for('static', filename= 'images/spa-francorchamps-7.jpeg')}}" class="d-block w-100" alt="Spa Image 2">
@@ -157,21 +126,76 @@ CAN WE ADD PADDING TO THE TOP AND BOTTOM OF THE IMAGES SO THE WRITING AND SLIDE 
   </div>
 <div class="col-sm-1"></div>
 </div>
-
-
-
 <br>
-<p>
-  So you wanna know how awesome sim racing can be.... Well what do you think about the circuits above? If you drive these
-  on a sim you will feel every bump, every curb and crash more times than you can count.. but! give it practice and you can master
-  every track, continuously improving and loving every minute.... apart from when you crash... then you might rage a bit, Good Luck!
-</p>
+<div class="row align-items-center">
+    <div class="col-sm-1">
+    </div>
+    <div class="col-sm-10">
+      <p>
+        So you wanna know how awesome sim racing can be.... Well what do you think about the circuits above? If you drive these
+        on a sim you will feel every bump, every curb and crash more times than you can count.. but! give it practice and you can master
+        every track, continuously improving and loving every minute.... apart from when you crash... then you might rage a bit, Good Luck!
+      </p>
+    </div>
+    <div class="col-sm-1">
+    </div>
+</div>
 <br>
-
-
 <!-- below will be about equipment and affiliates-->
-
-
+<div class="container text-center">
+  <div class="row align-items-center">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <div class="p-3  ">
+        <h3>Fanatec - Wheels that you'll love more than racing!</h3>
+        <p>
+          One of the most popular brands used by many sim racers is <a href="https://fanatec.com/eu-en">"Fanatec"</a> and the price isn't too crazy!
+          They offer entry to mid-level hardware that has the likes of force feedback (to feel the bumps in the road), loadcell pedals (to make the brake feel realistic)
+          and mny choices of steering wheels, some of which are made out of carbon fibre and the new bmw m4 wheel is a REAL car steering wheel!
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-5">
+      <div class="p-3  "><img src="{{url_for('static', filename= 'images/fanatec.jpeg')}}" class="img-fluid" alt="Fanatec Advert"></div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <div class="p-3  "><img src="{{url_for('static', filename= 'images/Sim_lab.webp')}}" class="img-fluid" alt="Sim Lab Advert"></div>
+    </div>
+    <div class="col-sm-5">
+      <div class="p-3  ">
+        <h3>The Backbone of a sim rig!</h3>
+        <p>
+          <a href="https://sim-lab.eu/">Sim Lab</a> are one of many companies that offer aluminuim profile rigs! The reason you want one of these types of sim rig
+          is that it is rigid! No flex means the steering and pedal inputs and feedback are more accurate so you feel more! Also bolting on a bucket seat and your monitor of choice
+          with the many other optional extras and you have an awesome looking and functional simulator!
+        </p>
+      </div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+  <div class="row align-items-center">
+    <div class="col-sm-1"></div>
+    <div class="col-sm-5">
+      <div class="p-3  ">
+        <h3>iRacing - the world's most competitive sim!</h3>
+        <p>
+          What's <a href="https://www.iracing.com/">iRacing.com?</a> iRacing is the ultimate place to go racing online.
+          From NASCAR, to IndyCar, to sports cars and Grand Prix racing, iRacing has it all. All you need is a PC,
+          a gaming wheel or game pad and an Internet connection. iRacing organizes all of the racing for you, or you
+          can choose to host your own race.
+        </p></div>
+    </div>
+    <div class="col-sm-5">
+      <div class="p-3  "><img src="{{url_for('static', filename= 'images/iRacingImage.jpeg')}}" class="img-fluid" alt="iRacing Advert"></div>
+    </div>
+    <div class="col-sm-1"></div>
+  </div>
+</div>
+<br>
 {% endblock %}
 
 

@@ -42,7 +42,7 @@ def register():
         else:
             new_person_id = DATA_PROVIDER.add_person(firstname, surname, age, email, iracing_id)
             success = 'Recruit Number:  ' + str(new_person_id) + ' data received. Thank you!'
-            return render_template('success.html', success_message=success)
+            return render_template('success.html', title='Registered', success_message=success)
     return render_template('recruits.html', title='Registration', form=form, message=error)
 
 
@@ -55,7 +55,7 @@ def get_people():
 
 @app.route('/driver_profile')
 def driver_profile():
-    return render_template('driver_profile.html', title='Profiles')
+    return render_template('driver_profile.html', title='Current Driver Profiles')
 
 @app.route('/contactus')
 def contact_us():
