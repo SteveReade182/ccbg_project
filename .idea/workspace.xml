@@ -1,7 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -181,7 +183,14 @@
       <option name="project" value="LOCAL" />
       <updated>1668159870649</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us">
+      <created>1668170396670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668170396670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -207,6 +216,7 @@
     <MESSAGE value="new branch for developing password" />
     <MESSAGE value="new branch for developing password&#10;-lots of updates to each html file" />
     <MESSAGE value="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
-    <option name="LAST_COMMIT_MESSAGE" value="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
+    <MESSAGE value="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us" />
   </component>
 </project>
