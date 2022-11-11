@@ -6,9 +6,9 @@ from flask_wtf import FlaskForm
 # BasicForm is now a kind of FlaskForm
 class BasicForm(FlaskForm):
     # instantiating various input fields
-    firstname = StringField('First Name')
-    surname = StringField('Last Name')
-    age = StringField('Age')
-    email = StringField('Email')
-    iracing_id = StringField("iRacing Subscriber?")
+    firstname = StringField('First Name:')
+    surname = StringField('Last Name:')
+    age = StringField('Age:')
+    email = StringField('Email:')
+    iracing_id = StringField("iRacing Subscriber: Y or N?")
     submit = SubmitField('Register')

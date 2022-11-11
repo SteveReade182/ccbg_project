@@ -8,6 +8,31 @@
 <style>
 @import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 </style>
+        <link rel="stylesheet" href="{{url_for('static', filename= 'styles.css')}}">
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+    #btn{
+        width: 150px;
+        height: 50px;
+        border-width: 8px;
+        border-radius: 35px;
+        font-size: 15px;
+        font-weight: bold;
+        background-color: rgb(226, 132, 31);
+        border-color:black;
+        color:black;
+        cursor: pointer;
+    }
+    #btn:active{
+        font-size:23px;
+    }
+    </style>
+
+
 </head>
 <title>CCBG Racing</title>
 <div class="container">
@@ -29,22 +54,32 @@
     <br>
     <br>
     <br>
-<p>Welcome to Chitty Chitty Baz Gang Racing affectionately abbreviated to and known as CCBG Racing.</p>
-   <p>This page is to make sure you have reached the right place if you want to find out more click below to </p><p>enter, if you
-   have come to the wrong place thanks for stopping by anyway and hopefully we'll see you again soon! </p>
-<br>
+    <p>Welcome to Chitty Chitty Baz Gang Racing affectionately abbreviated to and known as CCBG Racing.</p>
+    <br>
+    <p>This page is to make sure you have reached the right place if you want to find out more click below to </p>
+    <br>
+    <p>enter, if you have come to the wrong place thanks for stopping by anyway and hopefully we'll see you again soon! </p>
     <br>
     <br>
-
-   <form>
-    <button style="background-color:rgb(226, 132, 31); border-color:black; color:black;" formaction={{url_for('home')}}>Click Here To Enter!</button>
-       </form>
     <br>
 
-    <form>
-    <button style="background-color:rgb(226, 132, 31); border-color:black; color:black;" formaction={{url_for('home')}}>Members Area</button>
-  </form>
-<br>
+<!--<button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button>-->
+    <form id="app">
+        <button id="btn" onclick="audio.play()"; formaction= {{url_for('home')}}>Click Here To Enter!</button>
+        </form>
+
+        <br>
+        <br>
+
+        <form>
+            <button id="btn"; formaction= {{url_for('home')}}>Members Area</button>
+
+        </form>
+
+
+<script src="src/CCBG_Racing/index.js"></script>
+
+    <br>
     <br>
     <br>
     <br>
