@@ -1,6 +1,17 @@
 {% extends "layout.html" %}
+{% block head_content %}
+<SCRIPT language="JavaScript">
+var password;
+var pass1="RACING";
+password=prompt('Enter Password',' ');
+if (password==pass1)
+alert('Correct Password! Click OK to Enter!');
+else {
+window.location="{{ url_for('home')}}";
+}
+</script>
+{% endblock %}
 {% block body_content %}
-
 <div class="container text-center">
    <div class="row">
      <div class="col-6">

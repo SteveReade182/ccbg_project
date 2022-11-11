@@ -11,6 +11,7 @@
   <!-- bootstrap style link -->
     <link rel="stylesheet" href="{{ url_for('static', filename='styles.css')}}">
   <link rel="shortcut icon" href="{{ url_for('static', filename='images/penguin.ico') }}">
+  {% block head_content %}{% endblock %}
 </head>
 
 <body>

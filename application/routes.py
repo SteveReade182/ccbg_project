@@ -15,8 +15,6 @@ def splash():
     return render_template('splash.html', title='CCBG Racing')
 
 
-
-
 @app.route('/home')
 def home():
     return render_template('home.html', title='CCBG Racing')
@@ -52,6 +50,7 @@ def get_people():
     all_people_without = DATA_PROVIDER.get_people_by_racingID("N")
     # return render_template('people.html', title="Recruits", people_with=all_people_with)
     return render_template('people.html', title="Recruits", people_with=all_people_with, people_without=all_people_without)
+
 
 @app.route('/driver_profile')
 def driver_profile():
