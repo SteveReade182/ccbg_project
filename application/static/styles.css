@@ -74,6 +74,23 @@ font-weight:
 
 body{font-family:Raleway}
 
+#btn1{
+    width: 150px;
+    height: 50px;
+    border-width: 8px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(226, 132, 31);
+    border-color:black;
+    color:black;
+    cursor: pointer;
+}
+#btn1:active{
+    font-size:23px;
+}
+
+
 #btn2{
     width: 150px;
     height: 50px;
