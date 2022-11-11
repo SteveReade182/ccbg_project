@@ -3,7 +3,8 @@
   <component name="ChangeListManager">
     <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="new branch for developing password">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/application/templates/contact_us1.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/contact_us1.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -17,13 +18,6 @@
       </map>
     </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
-  </component>
-  <component name="GithubProjectSettings">
-    <option name="branchProtectionPatterns">
-      <list>
-        <option value="main" />
-      </list>
-    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -49,8 +43,8 @@
       <recent name="$PROJECT_DIR$/application/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/static/images" />
       <recent name="$PROJECT_DIR$/application/static/Fonts" />
+      <recent name="$PROJECT_DIR$/application/static/images" />
     </key>
   </component>
   <component name="RunManager">
