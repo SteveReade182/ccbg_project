@@ -5,20 +5,99 @@
     <title>CCBG Racing</title>
 
     <link rel="stylesheet" href="{{url_for('static', filename= 'styles.css')}}">
+<style>
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
+</style>
+        <link rel="stylesheet" href="{{url_for('static', filename= 'styles.css')}}">
+    <style type="text/css">
+    *{
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+
+    </style>
+
+
 </head>
 <title>CCBG Racing</title>
-<h1>CCBG Racing</h1>
+<div class="container">
+    <h1> CCBG Racing</h1>
+
+
+ </div>
+
+
+<br>
+<br>
+<br>
+<br>
+<br>
+
 <body>
 
-    <img src="{{url_for('static', filename= 'images/g647.png')}}">
-<p>Welcome to Chitty Chitty Baz Gang Racing affectionately abbreviated to and known as CCBG Racing.
-   This page is to make sure you have reached the right place if you want to find out more click below to enter, if you
-   have come to the wrong place thanks for stopping by anyway and hopefully we'll see you again soon! </p>
+    <img src="{{url_for('static', filename= 'images/g647.png')}}"width="600" height ="300">
+    <br>
+    <br>
+    <br>
+    <p>Welcome to Chitty Chitty Baz Gang Racing affectionately abbreviated to and known as CCBG Racing.</p>
+    <br>
+    <p>This page is to make sure you have reached the right place if you want to find out more click below to </p>
+    <br>
+    <p>enter, if you have come to the wrong place thanks for stopping by anyway and hopefully we'll see you again soon! </p>
+    <br>
+    <br>
+    <br>
 
-   <form>
-    <button style="background-color:rgb(226, 132, 31); border-color:black; color:black;" formaction={{url_for('home')}}>Click Here To Enter!</button>
-  </form>
+<!--<button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button>-->
+    <form id="app">
+        <button id="btn1" onclick="audio.play()"; formaction= {{url_for('home')}}>Click Here To Enter!</button>
+        </form>
 
+        <br>
+        <br>
+
+        <form>
+            <button id="btn2"; formaction= {{url_for('login')}}>Members Area</button>
+        </form>
+
+
+<script src="src/CCBG_Racing/index.js"></script>
+
+    <br>
+    <br>
+    <br>
+    <br>
+    <br>
+
+
+ <a href="https://www.instagram.com/">
+         <img alt="Instagram" src="{{url_for('static', filename= 'images/Instagram.jpeg')}}"
+         width="75" height="75">
+      </a>
+
+     <a href="https://twitter.com/home">
+         <img alt="Twitter" src="{{url_for('static', filename= 'images/Twitter2.jpeg')}}"
+         width="75" height="75">
+      </a>
+
+        <a href="https://studio.youtube.com/channel/UC94FeYSvGoShEj6oUxQ88-Q/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" >
+         <img alt="YouTube" src="{{url_for('static', filename= 'images/YouTube.jpeg')}}"
+         width="75" height="75">
+      </a>
+
+        <a href="https://www.twitch.tv/ccbgracing">
+         <img alt="Twitch" src="{{url_for('static', filename= 'images/Twitch.png')}}"
+         width="75" height="75">
+      </a>
+
+        <a href="mailto:ccbgracing@gmail.com">
+         <img alt="Gmail" src="{{url_for('static', filename= 'images/Gmail.jpeg')}}"
+         width="75" height="75">
+      </a>
+<br>
+    <br>
+    <br>
 <footer>©Copyright CCBG Ltd 2022</footer>
 </body>
 </html>

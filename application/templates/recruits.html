@@ -1,0 +1,41 @@
+{% extends "layout.html" %}
+{% block body_content %}
+    <p>Welcome to our Add Recruits Page</p>
+
+        <div class='form'>
+            <form method='POST' action=''>
+             <div class="container">
+                 <div class="row">
+                     {{ form.hidden_tag() }}
+
+                <div col> {{ form.firstname.label }}</div> <div col>{{ form.firstname }}</div>
+                     <br>
+
+                <div col>{{ form.surname.label }} </div> <div col>{{ form.surname }}</div>
+                    <br>
+
+                 <div col>{{ form.age.label }} </div> <div col>{{ form.age }}</div>
+                    <br>
+
+                <div col>{{ form.email.label }}</div> <div col> {{ form.email }}</div>
+                    <br>
+
+                <div col>{{ form.iracing_id.label }}</div> <div col>{{ form.iracing_id }}</div>
+
+
+
+                <br>
+                     <br>
+                     <div col> {{ form.submit }}</div>
+                     <div col> {{ message }} </div>
+
+
+
+                  </div>
+                </div>
+            </form>
+        </div>
+<br>
+<br>
+<br>
+{% endblock %}

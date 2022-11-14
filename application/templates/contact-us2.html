@@ -1,0 +1,48 @@
+{% extends "layout.html" %}
+{% block body_content %}
+ 
+    <title>Contact Us</title>
+<body>
+
+    <p>Here at CCBG we are keen to interact with everyone from fully fledged sum racing veterans to people completely new to our virtual racing world.
+        Below are all of the different ways you can interact with us. From seeing past race footage, to tips and hints about customising your 
+        set up to best meet your needs if we can be of help to you or provide inspiration then we will do our utmost to help!
+
+        Feel free to reach out in whatever way is best for you and we will aim to reply to enquiries within 2 working days.
+    </p>
+    <!--  -->
+
+    <div class="row">
+        <div class="col-sm-4"> <img src="/ccbg_project/application/static/images/Gmail.jpeg" width="145" height="145">
+            <form action="mailto:ccbgracing@gmail.com" method="post">
+            <input type="submit" value="Click Here To Email Us" />
+            </form></div>
+        <div class="col-sm-4"> <img src="/ccbg_project/application/static/images/Instagram.jpeg" width="145" height="145">
+            <form action="https://www.instagram.com/" method="get">
+            <input type="submit" value="Click Here To Connect With Us On Instagram" />
+            </form></div>
+     
+        <div class="col-sm-4"><img src="/ccbg_project/application/static/images/Twitter.png" width="145" height="145">
+            <form action="https://twitter.com/home" method="get">
+            <input type="submit" value="Click Here To Connect With Us On Twitter" />
+            </form></div>
+   
+   
+    </div>
+
+<div class="row">
+    <div class="col-sm-4"> <img src="/ccbg_project/application/static/images/Twitch.png" width="145" height="145">
+        <form action="https://www.twitch.tv/ccbgracing" method="get">
+        <input type="submit" value="Click Here To Connect With Us On Twitch" />
+        </form></div>
+    
+        <div class="col-sm-4"> <img src="/ccbg_project/application/static/images/YouTube.jpeg" width="145" height="145">
+            <form action="https://studio.youtube.com/channel/UC94FeYSvGoShEj6oUxQ88-Q/videos/upload?filter=%5B%5D&sort=%7B%22columnType%22%3A%22date%22%2C%22sortOrder%22%3A%22DESCENDING%22%7D" method="get">
+            <input type="submit" value="Click Here To Access Our YouTube channel" />
+            </form></div>
+
+</div>  
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/js/bootstrap.bundle.min.js"></script>
+
+{% endblock %}

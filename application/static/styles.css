@@ -8,8 +8,13 @@ body{
     linear-gradient(#1d1d1d 25%, #1a1a1a 25%, #1a1a1a 50%, transparent 50%, transparent 75%, #242424 75%, #242424);
     background-color: #131313;
     background-size: 20px 20px;
-    /*font-family: 'Raleway' 'Roboto', sans-serif;*/
+    font-family: 'Raleway' 'Roboto', sans-serif;
     color:rgb(226, 132, 31)
+}
+/*  RYAN please edit text colors for carousel*/
+
+#carouselText{
+    color:darkgray;
 }
 
 * {
@@ -17,4 +22,87 @@ body{
 }
 img{
     align-self:center;
+}
+
+.card-text{
+    font-size: 19px;
+    color: #131313;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.card-body{
+    color: rgb(0, 0, 0);
+}
+.card{
+    background-color: #ff910094;
+}
+
+
+
+@media (min-width : 992px) {
+    .offcanvas {
+      visibility      : visible;
+      position        : relative;
+      background      : none;
+      border          : none;
+      justify-content : end;
+      color           : red;
+    }
+  }
+  @media (max-width : 992px) {
+    .offcanvas {
+      width : 250px !important;
+    }
+    .offcanvas-start-lg {
+      top          : 0;
+      left         : 0;
+      border-right : 1px solid rgba(253, 126, 0, 0.817);
+      transform    : translateX(-100%);
+    }
+  }
+  .navbar-nav li a {
+    color: rgb(248, 139, 5) !important;
+  }
+
+h1 {font-size:75px;
+font-family:
+font-weight:
+  font-size: 80px;
+  color:coral;
+  text-align: center;
+  text-shadow: 0 0 5px #fff, 0 0 10px #fff, 0 0 15px #0073e6, 0 0 20px #0073e6, 0 0 25px #0073e6, 0 0 30px #0073e6, 0 0 35px #0073e6;
+}
+
+body{font-family:Raleway}
+
+#btn1{
+    width: 150px;
+    height: 50px;
+    border-width: 8px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(226, 132, 31);
+    border-color:black;
+    color:black;
+    cursor: pointer;
+}
+#btn1:active{
+    font-size:23px;
+}
+
+
+#btn2{
+    width: 150px;
+    height: 50px;
+    border-width: 8px;
+    border-radius: 35px;
+    font-size: 15px;
+    font-weight: bold;
+    background-color: rgb(226, 132, 31);
+    border-color:black;
+    color:black;
+    cursor: pointer;
+}
+#btn2:active{
+    font-size:23px;
 }

@@ -1,0 +1,36 @@
+{% extends "layout.html" %}
+{% block head_content %}
+
+{% endblock %}
+{% block body_content %}
+<div class="container text-center">
+   <div class="row">
+     <div class="col-6">
+       <h2>Registered with iRacing</h2>
+     </div>
+     <div class="col-6">
+       <h2>Not Registered</h2>
+     </div>
+   </div>
+  <div class="row">
+
+    <div class="col-6">
+      <ul style="list-style: none;">
+        {% for person in people_with %}
+        <li>{{ person[1]}} {{ person[2] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+    <div class="col-6">
+      <ul style="list-style: none;">
+        {% for person in people_without %}
+        <li>{{ person[1]}} {{ person[2] }}</li>
+        {% endfor %}
+      </ul>
+    </div>
+
+  </div>
+</div>
+
+{% endblock %}

@@ -1,0 +1,15 @@
+{% extends "layout.html" %}
+{% block body_content %}
+<div class="container">
+  <h4>Please Login</h4>
+  <br>
+  <form action="" method="post">
+    <input type="text" placeholder="Username" name="username" value="{{request.form.username }}">
+    <input type="password" placeholder="Password" name="password" value="{{request.form.password}}">
+    <input type="submit" value="Login">
+  </form>
+  {% if error %}
+    <p class="error"><strong>Error:</strong> {{ error }}
+  {% endif %}
+</div>
+{% endblock %}

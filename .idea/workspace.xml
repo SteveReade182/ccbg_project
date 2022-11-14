@@ -1,22 +1,35 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="commiting image">
+    <list default="true" id="81f32359-0c07-4581-8a33-d3f33b119bf6" name="Changes" comment="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/routes.py" beforeDir="false" afterPath="$PROJECT_DIR$/application/routes.py" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/static/styles.css" beforeDir="false" afterPath="$PROJECT_DIR$/application/static/styles.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/about.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/about.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/register.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/register.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/schedules.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/schedules.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/application/templates/splash.html" beforeDir="false" afterPath="$PROJECT_DIR$/application/templates/splash.html" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="HTML File" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="login_dev" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="GithubProjectSettings">
+    <option name="branchProtectionPatterns">
+      <list>
+        <option value="main" />
+      </list>
+    </option>
   </component>
   <component name="MarkdownSettingsMigration">
     <option name="stateVersion" value="1" />
@@ -32,6 +45,7 @@
   </component>
   <component name="PropertiesComponent">{
   &quot;keyToString&quot;: {
+    &quot;DefaultHtmlFileTemplate&quot;: &quot;HTML File&quot;,
     &quot;RunOnceActivity.OpenProjectViewOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;last_opened_file_path&quot;: &quot;/Users/ryc06/Desktop/Project CCBG/ccbg_project/application/static/images&quot;
@@ -42,8 +56,8 @@
       <recent name="$PROJECT_DIR$/application/static/images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/application/static/Fonts" />
       <recent name="$PROJECT_DIR$/application/static/images" />
+      <recent name="$PROJECT_DIR$/application/static/Fonts" />
     </key>
   </component>
   <component name="RunManager">
@@ -70,6 +84,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="Python.app" />
+        <item itemvalue="Python.app" />
         <item itemvalue="Python.app" />
       </list>
     </recent_temporary>
@@ -104,7 +120,77 @@
       <option name="project" value="LOCAL" />
       <updated>1667997214305</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="iteration 1 complete">
+      <created>1668002095308</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1668002095308</updated>
+    </task>
+    <task id="LOCAL-00005" summary="iteration 2 almost complete&#10;-working form&#10;-working carousels&#10;-accordian needs work&#10;-styling needs adding to accordian&#10;-more content needs adding">
+      <created>1668028453510</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1668028453510</updated>
+    </task>
+    <task id="LOCAL-00006" summary="iteration 2 almost complete&#10;-working form&#10;-carousels need texgt work&#10;-more content needs adding">
+      <created>1668092075234</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1668092075234</updated>
+    </task>
+    <task id="LOCAL-00007" summary="iteration 3 almost complete&#10;-working form, navbar&#10;-carousels need text work&#10;-more content needs adding&#10;-moved about to home">
+      <created>1668098783214</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1668098783214</updated>
+    </task>
+    <task id="LOCAL-00008" summary="iteration 3 almost complete&#10;-sorted people data and mysql connections">
+      <created>1668108415750</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1668108415750</updated>
+    </task>
+    <task id="LOCAL-00009" summary="iteration 3 almost complete&#10;-sorted splash images">
+      <created>1668111354859</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1668111354859</updated>
+    </task>
+    <task id="LOCAL-00010" summary="new branch for developing password">
+      <created>1668118820772</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1668118820772</updated>
+    </task>
+    <task id="LOCAL-00011" summary="new branch for developing password&#10;-lots of updates to each html file">
+      <created>1668154305883</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1668154305883</updated>
+    </task>
+    <task id="LOCAL-00012" summary="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code.">
+      <created>1668159870649</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1668159870649</updated>
+    </task>
+    <task id="LOCAL-00013" summary="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us">
+      <created>1668170396670</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1668170396670</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -121,6 +207,16 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Changed image properties" />
     <MESSAGE value="Added font folder for stylesheet" />
-    <option name="LAST_COMMIT_MESSAGE" value="Added font folder for stylesheet" />
+    <MESSAGE value="iteration 1 complete" />
+    <MESSAGE value="iteration 2 almost complete&#10;-working form&#10;-working carousels&#10;-accordian needs work&#10;-styling needs adding to accordian&#10;-more content needs adding" />
+    <MESSAGE value="iteration 2 almost complete&#10;-working form&#10;-carousels need texgt work&#10;-more content needs adding" />
+    <MESSAGE value="iteration 3 almost complete&#10;-working form, navbar&#10;-carousels need text work&#10;-more content needs adding&#10;-moved about to home" />
+    <MESSAGE value="iteration 3 almost complete&#10;-sorted people data and mysql connections" />
+    <MESSAGE value="iteration 3 almost complete&#10;-sorted splash images" />
+    <MESSAGE value="new branch for developing password" />
+    <MESSAGE value="new branch for developing password&#10;-lots of updates to each html file" />
+    <MESSAGE value="-member page active&#10;-link from splash to people created&#10;-password created and set to 'RACING' whilst in build stages&#10;-removed some unnecessary code." />
+    <MESSAGE value="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us" />
+    <option name="LAST_COMMIT_MESSAGE" value="Re rendered button one to look the same as button 2 and replaced twitter icon on both splash and contact us" />
   </component>
 </project>
